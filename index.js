@@ -1,6 +1,6 @@
 var fTemp = "";
 var locationQuery = "";
-var key = "66df3a4e65720ae041757d3fbe6e0e35"; //api key
+var key = "your api key goes here"; 
 
 if("geolocation" in navigator) {
   navigator.geolocation.getCurrentPosition(function(position) {

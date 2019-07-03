@@ -1,0 +1,31 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff2);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css);
+
+body {
+  background-color: #b3b3b3;
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+#locationInput {
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(10,10,10);
+  width: 180px;
+  font-size: 18px;
+}
+
+#tempScale {
+  text-decoration: none;
+}

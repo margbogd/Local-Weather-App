@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<h2>Local Weather App <i class="fa fa-cloud" style="font-size:55px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></h2>
+	</header>
+	</br>
+      <div class="container">
+        <p class="status"></p>
+        <p class="weatherImage"></p>
+        <p class="temp"></p>
+        <p class="location">
+          <span id="city"></span><span id="country"></span>
+        </p>
+        <div class="form-group">
+          <form onSubmit="return false">
+            <input id="locationInput" type="search" name="locationQuery" placeholder="City or Zip Code">
+            <button class="btn btn-primary">Submit</button>
+          </form>
+        </div>      
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
